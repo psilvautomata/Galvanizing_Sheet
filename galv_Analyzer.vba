@@ -51,7 +51,7 @@ Workbooks("BD_Certificados.xlsm").Close SaveChanges:=False 'Close BD workbook wi
 Application.ScreenUpdating = True 'Enable screen updating
 Application.EnableEvents = True 'Enable excel events
 
-'MsgBox ("Dados importados com sucesso!")
+MsgBox ("Dados importados com sucesso!")
 
 
 End Sub
